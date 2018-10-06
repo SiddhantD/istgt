@@ -26,7 +26,7 @@
  */
 
 #ifndef ISTGT_MD5_H
-#define ISTGT_MD5_H
+#define	ISTGT_MD5_H
 
 #include <stddef.h>
 
@@ -36,7 +36,7 @@
 #include <openssl/md5.h>
 #endif
 
-#define ISTGT_MD5DIGEST_LEN MD5_DIGEST_LENGTH
+#define	ISTGT_MD5DIGEST_LEN MD5_DIGEST_LENGTH
 
 typedef struct istgt_md5ctx_t {
 	MD5_CTX md5ctx;
